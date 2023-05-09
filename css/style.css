@@ -1,0 +1,15 @@
+/* 
+このファイルはすべてのHTMLファイルで共通のCSSを書くファイルです。
+*/
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
