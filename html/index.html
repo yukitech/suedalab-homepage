@@ -1,76 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>明星大学 情報学部 末田研究室</title>
     <meta name="keywords" content="明星大学,情報学部,末田研究室">
     <meta name="description" content="明星大学情報学部末田研究室について紹介しています。">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../javascript/script.js"></script>
 </head>
-<body>
-    <style>
-        body{
-            font-family: "游ゴシック";
-            background-color: lightcyan;
-        }
-        nav ul{
-            width: 940px;
-            padding-left: 0;
-            margin: 0 auto 30px auto;
-            list-style-type: none;
-        }
-        header nav ul li{
-            text-decoration-line: none;
-            padding: 10px 0;
-            display: block;
-            width: 186px;
-            margin-right: 2px;
-            float: left;
-            text-align: center;
-        }
-        header nav ul li:last-child{
-            margin-right: 0;
-        }
-        main nav ul li{
-                text-align: center;
-        }
-        footer{
-            padding: 30px 0;
-            text-align: center;
-        }
-        footer ul{
-            padding: 0;
-            margin-bottom: 30px;
-        }
-        footer ul li{
-            display: inline;
-            margin: 0 10px;
-        }
-    </style>
-    <!--ヘッダー-->
-    <header id="top">
-        <h1 align="center"><img src="../img/rogo.png" align="middle"　width="200" height="200">IoTコミュニケーション研究室</h1>
-        <nav>
-            <ul>
-                <li><a href="about.html">末田研究室とは</a></li>
-                <li><a href="member.html">メンバー</a></li>
-                <li><a href="publications.html">発表論文</a></li>
-                <li><a href="access.html">アクセス</a></li>
-                <li><a href="contact.html">お問い合わせ</a></li><br>
-            </ul>
-        </nav>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-        <script type="text/javascript">
-        $(document).ready(function(){
-            $('.slider').bxSlider({
-                auto: true,
-                pause: 5000,
-                slideWidth: 400,
-            });
-        });
-        </script>
-    </header>
+<body class="wrapper">
+    <header id="header"></header><!-- /#header -->
     <!--メイン-->
     <main><br><br>
         <h1 align="center">〇IoTコミュニケーション研究室とは〇</h1>
@@ -80,6 +21,7 @@
         <h3 align="center">2022年度 3年生が学会で発表しました！</h3>
         <p align="center">2023年3月7日～8日に芝浦工業大学 大宮キャンパスで開催された</p>
         <p align="center">「電子情報通信学会 2023年総合大会 ジュニア＆学生ポスターセッション」にて研究したテーマについて発表しました！</p><br>
+        <script src="../javascript/slider.js"></script>
         <div class="slider">
             <img src="../img/IMG_9741.JPG" alt="">
             <img src="../img/IMG_9738.JPG" alt="">
@@ -97,15 +39,6 @@
                 </ul>
             </nav>
     </main>
-    <!--フッター-->
-    <footer>
-        <UL>
-            <li><a href="member.html">メンバー</a></li>
-            <li><a href="publications.html">発表論文</a></li>
-            <li><a href="access.html">アクセス</a></li>
-            <li><a href="contact.html">お問い合わせ</a></li>
-        </ul>
-            <small>Copyright &copy; 明星大学 情報学部 末田研究室</small>
-    </footer>
+    <footer id="footer"></footer><!-- /#footer -->
 </body>
 </html>

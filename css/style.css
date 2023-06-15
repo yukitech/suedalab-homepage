@@ -6,10 +6,39 @@ html {
 }
 body {
   font-family: "Hiragino Kaku Gothic ProN";
+  background-color: lightcyan;
 }
 a {
   text-decoration: none;
+  color: rgba(0, 0, 0, 0.466);
 }
 li {
   list-style: none;
+}
+.wrapper {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+#header .page-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo-img {
+  width: 200px;
+  height: 200px;
+}
+#nav-list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#footer #nav-list {
+  width: 500px;
+  margin: 0 auto;
+}
+#copy-right {
+  text-align: center;
 }
