@@ -12,6 +12,10 @@ a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.466);
 }
+a:hover {
+  transition: 0.3s;
+  color: black;
+}
 li {
   list-style: none;
 }
@@ -20,6 +24,9 @@ li {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 16px;
+}
+#header {
+  margin-bottom: 60px;
 }
 #header .page-top {
   display: flex;
@@ -34,6 +41,35 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+main {
+  text-align: center;
+}
+main .title {
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+main .about-labo {
+  margin-bottom: 60px;
+}
+main .latest-news-container {
+  margin-bottom: 100px;
+}
+.bx-wrapper {
+  margin: 0 auto;
+}
+.sns-container {
+  margin-bottom: 60px;
+}
+.sns-container .twitter {
+  width: 500px;
+  margin: 0 auto;
+}
+.external-links {
+  margin-bottom: 60px;
+}
+.external-links ul {
+  padding-left: 0;
 }
 #footer #nav-list {
   width: 500px;
