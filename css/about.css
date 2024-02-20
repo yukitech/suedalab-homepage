@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+li:nth-child(2) {
+    margin: 0 10px;
+}
+
+span {
+    color: red;
+}
+
+.gakkai img {
+    width: 210px;
+    height: 280px;
+}
+
+.goudou {
+    width: 400px;
+    height: 300px;
+    display: block; 
+    margin: auto;
+}
+
+main{
+    text-align: center;
+}
