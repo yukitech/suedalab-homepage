@@ -1,0 +1,29 @@
+main {
+  text-align: center;
+}
+main .title {
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+main .about-labo {
+  margin-bottom: 60px;
+}
+main .latest-news-container {
+  margin-bottom: 100px;
+}
+.bx-wrapper {
+  margin: 0 auto;
+}
+.sns-container {
+  margin-bottom: 60px;
+}
+.sns-container .twitter {
+  width: 500px;
+  margin: 0 auto;
+}
+.external-links {
+  margin-bottom: 60px;
+}
+.external-links ul {
+  padding-left: 0;
+}
