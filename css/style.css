@@ -6,7 +6,7 @@ html {
 }
 body {
   font-family: "Hiragino Kaku Gothic ProN";
-  background-color: lightcyan;
+  background-color: whitesmoke;
 }
 a {
   text-decoration: none;
@@ -26,12 +26,24 @@ li {
   padding: 0 16px;
 }
 #header {
-  margin: 30px 0 60px 0;
+  margin-bottom: 60px;
+  background: url(../img/トップ画像背景.jpg) no-repeat 0 0 / cover;
+}
+#header p {
+  padding-top: 10px;
+  margin: 0 0 10px 160px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#header p span {
+  font-size: 24px;
 }
 #header .page-top {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 20px;
 }
 #logo-img {
   object-fit: cover;
@@ -40,15 +52,30 @@ li {
   border-radius: 50%;
   margin-right: 30px;
 }
+#nav-list {
+  background-color: lightgray;
+  padding: 2px 0;
+}
 #nav-list ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-#footer #nav-list {
-  width: 500px;
-  margin: 0 auto;
+#footer {
+  background-color: lightcyan;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 160px;
+}
+#footer-logo-img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 #copy-right {
   text-align: center;
+  padding-bottom: 10px;
 }
