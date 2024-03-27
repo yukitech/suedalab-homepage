@@ -21,13 +21,13 @@ li {
     text-align:left;
 }
 
-.publications2 li{
+/*.publications2 li{
     font-weight: normal;
     list-style-type: disc;
     border-bottom:none;
     padding-top:none;
     padding-bottom:none;
-}
+}*/
 
 h3 {
     font-weight: bold;
@@ -70,4 +70,41 @@ details[open] summary{
 /*折りたたむ部分*/
 details{
     width:100%;
+}
+
+/*　画面サイズ~480px　スマホ*/
+@media screen and (max-width: 480px) {
+    /*div { color: red;}*/
+    .publications p{
+        white-space: nowrap;
+        font-size: 10px;
+        padding-left: none;
+    }
+    span {
+        display: block;
+        border-bottom: 1px dotted #999;
+        overflow-x: scroll;
+    }
+    .publications li{
+        border-bottom: none;
+        font-size: 13px;
+    }
+}
+
+/*　画面サイズ~680px　タブレット*/
+@media screen and (min-width: 481px) and (max-width: 680px) {
+    /*div { color: blue;}*/
+    .publications p{
+        white-space: nowrap;
+        font-size: 13px;
+    }
+    span {
+        display: block;
+        border-bottom: 1px dotted #999;
+        overflow-x: scroll;
+    }
+    .publications li{
+        border-bottom: none;
+        font-size: 15px;
+    }
 }
