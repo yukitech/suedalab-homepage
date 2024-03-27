@@ -39,4 +39,22 @@ ul li img{
     width: 270px;
     height: 360px;
 }
+/*たぶれと*/
+@media screen and (max-width: 768px) {
+    .table_detail {
+        display: block;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+/*すまほ*/
+@media screen and (max-width: 480px) {
+
+    .table_detail {
+        display: block;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
 
