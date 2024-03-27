@@ -1,0 +1,110 @@
+/*ul {
+    display: flex;
+    justify-content: center;
+}*/
+
+li {
+    list-style: none;
+}
+
+.publications li{
+    font-weight: bold;
+    list-style-type: disc;
+    border-bottom: 1px dotted #999;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.publications p{
+    font-weight: normal;
+    margin:0 0 0em;
+    text-align:left;
+}
+
+/*.publications2 li{
+    font-weight: normal;
+    list-style-type: disc;
+    border-bottom:none;
+    padding-top:none;
+    padding-bottom:none;
+}*/
+
+h3 {
+    font-weight: bold;
+    color: #5793d3;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+h4 {
+    font-weight: bold;
+    color: #5793d3;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: solid 4px #5793d3;
+}
+
+/*メニュー部分*/
+details summary{
+    /*アニメーション*/
+    transition: 0.5s;
+    /*文字色*/
+    color:rgb(8, 8, 8);
+    
+    /*閉じたときの余白*/
+    padding:1% 2%;
+}
+/*メニュー部分 開いたとき*/
+details[open] summary{
+    /*文字色*/
+    color:rgb(241, 235, 235);
+    /*開いたときの色*/
+    background:midnightblue;
+    /*開いたときの余白*/
+    padding-left:4%;
+}
+/*折りたたむ部分*/
+details{
+    width:100%;
+}
+
+/*　画面サイズ~480px　スマホ*/
+@media screen and (max-width: 480px) {
+    /*div { color: red;}*/
+    .publications p{
+        white-space: nowrap;
+        font-size: 10px;
+        padding-left: none;
+    }
+    span {
+        display: block;
+        border-bottom: 1px dotted #999;
+        overflow-x: scroll;
+    }
+    .publications li{
+        border-bottom: none;
+        font-size: 13px;
+    }
+}
+
+/*　画面サイズ~680px　タブレット*/
+@media screen and (min-width: 481px) and (max-width: 680px) {
+    /*div { color: blue;}*/
+    .publications p{
+        white-space: nowrap;
+        font-size: 13px;
+    }
+    span {
+        display: block;
+        border-bottom: 1px dotted #999;
+        overflow-x: scroll;
+    }
+    .publications li{
+        border-bottom: none;
+        font-size: 15px;
+    }
+}

@@ -3,11 +3,39 @@ details summary{
     /*アニメーション*/
     transition: 0.5s;
     /*文字色*/
-    color:rgb(8, 8, 8);
-    
+    color:rgb(8, 8, 8); 
     /*閉じたときの余白*/
     padding:1% 2%;
+
+    position: relative;
 }
+
+/*ホバーエフェクト（線）
+summary::after {
+  position: absolute;
+  bottom: 0.3em;
+  left: 20px;
+  content: '';
+  width: 23%;
+  height: 2px;
+  background-color: #333;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+summary:hover::after {
+  bottom: 0;
+  opacity: 1;
+}
+*/
+
+summary:hover {
+    font-size: 18px;
+    color: #1c1fd8;
+    transition : all 0.5s;
+
+}
+
 /*メニュー部分 開いたとき*/
 details[open] summary{
     /*文字色*/
@@ -70,4 +98,23 @@ h4 {
 .table_detail td {
     padding: 10px;
     border-bottom: solid 1px #5793d3;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .table_detail {
+        display: block;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+/*SmartPhone*/
+@media screen and (max-width: 480px) {
+
+    .table_detail {
+        display: block;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
 }
