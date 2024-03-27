@@ -4,10 +4,16 @@ main{
 span{
     color: #8b0000;
 }
-img {
+p img {
     margin:0 auto;
     width: 560px;
     height: 315px;
+}
+img{
+    margin:0 auto;
+    margin-bottom: 20px;
+    width: 270px;
+    height: 360px;
 }
 main h2{
     margin-bottom: 30px;
@@ -18,3 +24,19 @@ main h3{
 main p{
     margin-bottom: 10px;
 }
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+li:nth-child(2) {
+    margin: 0 10px;
+}
+ul li img{
+    width: 270px;
+    height: 360px;
+}
+
